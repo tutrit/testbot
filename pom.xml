@@ -8,10 +8,13 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>by.jrr.tutrit</groupId>
 	<artifactId>processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>processor</name>
+
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -29,6 +32,14 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>testbotrepo</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/tutrit/testbot</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -36,6 +47,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
 	</build>
 
 </project>
