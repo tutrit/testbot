@@ -1,10 +1,10 @@
-package com.example.demo;
+package by.jrr.tutrit.processor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class ProcessorApplicationTests {
 
 	@Test
 	void contextLoads() {
